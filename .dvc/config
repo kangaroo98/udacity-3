@@ -1,4 +1,6 @@
 [core]
-    remote = local
+    remote = gremote
 ['remote "local"']
     url = ../../dvc-test
+['remote "gremote"']
+    url = gdrive://1LFn9ZczKqBmuqa5VZLWruNEhVQxyedE0

@@ -7,6 +7,7 @@ def create_ids(id_count: str) -> None:
     ids = [i for i in range(int(id_count))]
     df = pd.DataFrame(ids)
     df.to_csv("./id.csv", index=False)
+    print(f"MyTest: {ids}")
 
 
 if __name__ == "__main__":
