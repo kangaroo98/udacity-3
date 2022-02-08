@@ -20,7 +20,7 @@ jobs:
           pip install pylint
           pip install sklearn
           pip install numpy
-          pip install yaml
+          pip install pyyaml
       - name: Analysing the code with pylint
         run: |
           pylint $(git ls-files '*.py')
